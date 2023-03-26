@@ -1,0 +1,67 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Jd's hub", "Synapse")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("main")
+
+
+MainSection:NewButton("Fruit warriors/Slayer Tycoon|Ro-flux", "Loads Ro-flux hub", function()
+    _G.Key = "FreeKey2023"
+--- https://discord.gg/8gNrnWmgcb
+pcall(function()
+  loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
+end)
+end)
+
+
+MainSection:NewButton("Bedwars|VapeV4", "loads VapeV4 hub", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+
+MainSection:NewButton("Your Bizare Adventure| Cuhub", "Loads Cuhub,Has a key", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua"))()
+end)
+
+
+MainSection:NewButton("Pet Simulator X| Jmes", "Loads Jmes, keyless ", function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+
+
+MainSection:NewButton("Adopt Me/Shindo Life| Speed hub x", "Loads Speed Hub X, key ", function()
+  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+
+
+MainSection:NewButton("Bloxburg| Vedrox", "Loads Vedrox, has a key", function()
+ loadstring(game:HttpGet("https://vedrox.hold4564.de/new/merge/loader.lua"))()
+end)
+
+
+MainSection:NewButton("Fruit Battlegrounds| JumbleScripts", "Loads Jumble scripts", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/JumbleBumble/Scripts/main/FruitBattlegrounds.lua"))()
+end)
+
+
+MainSection:NewButton("Combat Warriors| Zap Hub", "Loads Zap hub", function()
+ loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true))()
+end)
+
+
+MainSection:NewButton("Bee Swarm Simulator| Kometa Hub", "Loads Kometa hub", function()
+loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+end)
+
+
+MainSection:NewButton("Jail Break| Ice hub", "Loads Ice hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
+end)
+
+
+
+-- Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+CreditsSection:NewLabel("Credits to: me jdflightboy#2582")
